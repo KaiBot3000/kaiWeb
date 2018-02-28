@@ -15,6 +15,6 @@
   "content_scripts": [{
     "matches": ["<all_urls>"],
     "all_frames": true,
-    "js": ["scripts/networkEliminator.js"]
+    "js": ["scripts/eliminate.js"]
   }]
 }
