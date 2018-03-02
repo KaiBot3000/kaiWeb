@@ -1,7 +1,7 @@
+![Noooooo](./screenshot.png)
+
 ## KaiWeb
 > For when the internet is both an amazing tool and an amazing distraction.
-
-![Noooooo](./screenshot.png)
 
 ### Premise
 I'm a software engineer. That means I sometimes get stuck on code problems, and when I'm stuck and frustrated I'm particularly vulnerable to distraction. Enter: StackOverflow's "Hot Network Questions." They have nothing to do with my current problem, and *other peoples' problems are so much more fun to think about than that thing that still isn't frickin' working!* But luckily, I'm a software engineer and get to experience the internet the way I want to. So I deleted the "Hot Network Questions".
