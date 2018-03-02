@@ -11,20 +11,22 @@ I started out with a popup script, since that allowed me to configure or trigger
 
 This is very much a `[WIP]` but here's what I'm doing so far:
 
-- Deleting the above-mentioned "Hot Network Questions"
-- Hiding the GitHub `notfications` bell, since I'm an inbox-zero kind of person but I'm also on vacation, dangit.
+- Hide the above-mentioned "Hot Network Questions"
+- Hide the GitHub `notfications` bell/indicator, since I'm an inbox-zero kind of person but I'm also on vacation, dangit.
 
 Future:
 I'd like to also add an `EXTREEEM MODE` which is activated using the popup, that will allow me to delete things like the twitter timeline, news sites content, hacker news comment threads, and other things which are so so tempting when looking at the internet is part of my job.
 
 ### Installation
 - download this repository to your computer
-- visit [Chrome's extension page](chrome://extensions/)
+- visit ![Chrome's extension page](chrome://extensions/)
 - ensure `Developer mode` is checked
 - click `Load unpacked extension` and select your local copy of this repo
-- you should see   ![icon](./icon.png)   appear in your toolbar!
+- you should see ![icon](./icon.png) appear in your toolbar!
 
 ### Learnings
+Much of this can be accomplished using a built-in feature in adblocking extensions like uBlock, but most of the reason I did this was to learn how to write my own extensions. Here's some things I learned and might want to remember when I come back to the project (and you might find helpful, too!):
+
 - background scripts vs content scripts vs popup scripts
     - popup scripts only run in the context of the extension's popup. That means print statements go to the popup's inspector, not the inspector of the tab you're on.
     - content scripts can directly modify the *content* of the DOM
