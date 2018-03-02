@@ -19,7 +19,7 @@ I'd like to also add an `EXTREEEM MODE` which is activated using the popup, that
 
 ### Installation
 - download this repository to your computer
-- visit ![Chrome's extension page](chrome://extensions/)
+- visit Chrome's extension page at chrome://extensions/
 - ensure `Developer mode` is checked
 - click `Load unpacked extension` and select your local copy of this repo
 - you should see ![icon](./icon.png) appear in your toolbar!
